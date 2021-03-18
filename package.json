@@ -1,0 +1,20 @@
+{
+  "name": "mfe-nav",
+  "version": "1.0.0",
+  "description": "Example implementation of the Navigation Microfrontend",
+  "main": "index.js",
+  "dependencies": {
+    "@sfdc-www/hgf-lwc-components": "^1.13.0",
+    "express": "^4.17.1",
+    "lwc-webpack-plugin": "^1.2.2"
+  },
+  "devDependencies": {
+    "webpack": "^5.26.3",
+    "webpack-cli": "^4.5.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "nleonard@salesforce.com",
+  "license": "ISC"
+}
