@@ -8,6 +8,29 @@ An example of an LWC Micro Frontend (MFE) rendering the Navigation experience.
 
 ### Setup
 
+#### NPM 
+
+
+##### Homepage Global Framework
+
+https://github.com/sfdc-www/hgf-www/tree/main/packages/lwc-components
+
+“@sfdc-www/hgf-lwc-components": "^1.13.0”
+
+##### .npmrc
+
+```
+registry=https://npm.pkg.github.com/sfdc-www
+```
+
+##### Login
+
+```
+npm login --scope=sfdc-www --registry=https://npm.pkg.github.com
+```
+
+
+
 ```
 npm install
 ```
